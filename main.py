@@ -21,3 +21,7 @@ class Demo(MDApp):
         btn = MDRectangleFlatButton(text="Submit", pos_hint={
             'center_x': 0.5, 'center_y': 0.3},
                                     on_release=self.btnfunc)
+
+        screen.add_widget(name)
+        screen.add_widget(btn)
+        screen.add_widget(l)
