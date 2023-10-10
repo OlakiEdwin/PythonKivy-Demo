@@ -13,3 +13,7 @@ class Demo(MDApp):
                     theme_text_color="Custom",
                     text_color=(0.5, 0, 0.5, 1),
                     font_style='Caption')
+
+        name = MDTextField(text="Enter name", pos_hint={
+                        'center_x': 0.8, 'center_y': 0.8},
+                           size_hint_x=None, width=100)
