@@ -25,3 +25,11 @@ class Demo(MDApp):
         screen.add_widget(name)
         screen.add_widget(btn)
         screen.add_widget(l)
+
+        return screen
+
+    def btnfunc(self, obj):
+        print("button is pressed!!")
+
+if __name__ == "__main__":
+    Demo().run()
