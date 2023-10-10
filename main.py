@@ -15,5 +15,9 @@ class Demo(MDApp):
                     font_style='Caption')
 
         name = MDTextField(text="Enter name", pos_hint={
-                        'center_x': 0.8, 'center_y': 0.8},
+            'center_x': 0.8, 'center_y': 0.8},
                            size_hint_x=None, width=100)
+
+        btn = MDRectangleFlatButton(text="Submit", pos_hint={
+            'center_x': 0.5, 'center_y': 0.3},
+                                    on_release=self.btnfunc)
